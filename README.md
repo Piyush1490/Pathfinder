@@ -9,7 +9,6 @@ Pathfinder is a project that I created to explore and showcase the power of path
 
 This application uses Dijkstra's Algorithm. Dijkstra's algorithm is an efficient way to find the shortest paths between nodes in a graph, such as road networks. It was developed by computer scientist Edsger W. Dijkstra in 1956 and remains widely used today.
 
-### How to Use:
 
 ### Move Nodes:
 
@@ -27,6 +26,6 @@ To create walls, click and hold your mouse on empty nodes in the grid.
 
 Once the nodes and walls are set, run the algorithm to visualize how it calculates the shortest path.
 
-# Experiment:
+### Experiment:
 
 Move the nodes or add/remove walls to see how the algorithm adapts to changes in real-time.
