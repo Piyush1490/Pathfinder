@@ -2,7 +2,7 @@
 
 Pathfinder is a project that I created to explore and showcase the power of pathfinding algorithms in a fun and interactive way. Using my knowledge of algorithms and programming, this application allows you to visualize how different algorithms find paths between two nodes. The primary algorithm used is DIJKSTRA'S ALGORITHM, which calculates the shortest path between two points while taking into account obstacles or "walls" placed in the path.
 
-<a href="https://piyush1490.github.io/Pathfinder/" style="font-size: 24px; font-weight: bold;">Visit Pathfinder</a>
+
 # https://piyush1490.github.io/Pathfinder/
 
 # Tutorial
