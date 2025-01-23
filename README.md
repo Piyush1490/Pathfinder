@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# HI, WELCOME TO PATHFINDER!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pathfinder is a project that I created to explore and showcase the power of pathfinding algorithms in a fun and interactive way. Using my knowledge of algorithms and programming, this application allows you to visualize how different algorithms find paths between two nodes. The primary algorithm used is DIJKSTRA'S ALGORITHM, which calculates the shortest path between two points while taking into account obstacles or "walls" placed in the path.
 
-## Available Scripts
+<a href="https://piyush1490.github.io/Pathfinder/" style="font-size: 24px; font-weight: bold;">Visit Pathfinder</a>
+# https://piyush1490.github.io/Pathfinder/
 
-In the project directory, you can run:
+# Tutorial
 
-### `npm start`
+This application uses Dijkstra's Algorithm. Dijkstra's algorithm is an efficient way to find the shortest paths between nodes in a graph, such as road networks. It was developed by computer scientist Edsger W. Dijkstra in 1956 and remains widely used today.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# How to Use:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Move Nodes:
 
-### `npm test`
+The starting node (green) can be moved by clicking and dragging it to any empty space.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Similarly, the end node (red) can be moved to any desired empty space.
 
-### `npm run build`
+# Build Walls:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Walls are obstacles that block the pathfinding algorithm.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To create walls, click and hold your mouse on empty nodes in the grid.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Visualize Pathfinding:
 
-### `npm run eject`
+Once the nodes and walls are set, run the algorithm to visualize how it calculates the shortest path.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Experiment:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Move the nodes or add/remove walls to see how the algorithm adapts to changes in real-time.
